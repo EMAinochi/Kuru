@@ -204,7 +204,7 @@ a:hover:before {
     background-color: black;
     width: 100%;
     height: 1300px;
-    background-image: url("/images/content_bg.jpg");
+    background-image: url("image/content_bg.jpg");
     background-position: center;
     background-size: cover; 
     position: relative;
@@ -450,7 +450,7 @@ p {
     background-color: black;
     width: 100%;
     height: 1800px;
-    background-image: url("/images/content_bg.jpg");
+    background-image: url("image/content_bg.jpg");
     background-position: center;
     background-size: cover; 
     position: relative;
@@ -597,7 +597,7 @@ p {
     background-color: black;
     width: 100%;
     height: 1800px;
-    background-image: url("/images/content_bg.jpg");
+    background-image: url("image/content_bg.jpg");
     background-position: center;
     background-size: cover; 
     position: relative;
