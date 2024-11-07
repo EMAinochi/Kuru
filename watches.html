@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Kuru</title> <!-- Website name -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Device website size -->
+    <meta charset="UTF-8"> <!-- Character set -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to css -->
+    <script src="script.js" defer></script> <!-- Link to js -->
+    <link rel="icon" href="/images/favicon.ico"> <!-- Favicon -->
+</head>
+
+
+  
+<body> 
+  
+    <!-- Header -->
+    <header>
+        <!-- Left header -->
+        <div id="left_header">
+            <img id="header_logo" src="/images/logo.png" alt="logo">
+            <p id="header_txt">A fan based<br>webshop</p>
+        </div>
+  
+        <!-- Right header -->
+        <div id="right_header">
+            <img id="right_header_img" src="/images/header_bg.jpg" alt="img">
+        </div>
+    </header>
+  
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div id="nav_bg">
+            <ul>
+                <img id="nav_logo" src="/images/logo.png" alt="logo">
+                <a href="index.html">news</a>
+                <span class="nav_slash"></span>
+                <a href="goods.html">goods</a>
+                <span class="nav_slash"></span>
+                <a href="shirts.html">shirts</a>
+                <span class="nav_slash"></span>
+                <a href="phones.html">phones</a>
+                <span class="nav_slash"></span>
+                <a href="watches.html">watches</a>
+                <span class="nav_slash"></span>
+                <a href="on air.html">on air</a>
+                <span class="nav_slash"></span>
+                <a id="a_right" href="contact.html">contact</a>
+                <button id="counter">0</button>
+                <a href="cart.html"><img id="img_cart" src="/images/cart.png" alt="image"></a>
+            </ul>
+        </div>
+    </nav>
+  
+    <!-- Content -->
+    <div id="content_watches_bg">
+        <div id="content_watches_color"></div>
+        <div id="content_watches">
+
+            <!-- Full-width images -->
+            <div class="slides"> 
+                <div class="numbertext">1 / 6</div>
+                    <img class="watches_img" src="/images/watches1.jpg">
+                        <div class="watchestext">
+                            <h1>watch 1</h1>
+                            <p>$253.99</p>
+                            <button id="green_button" onclick="AddFunctionWatch1()">+</button>
+                            <button id="counter_watch1" >0</button>
+                            <button id="red_button" onclick="DecreaseFunctionWatch1()">-</button>
+                        </div>
+            </div>
+          
+            <div class="slides">
+                <div class="numbertext">2 / 6</div>
+                    <img class="watches_img" src="/images/watches2.jpg">
+                        <div class="watchestext">
+                            <h1>watch 2</h1>
+                            <p>$663.99</p>
+                            <button id="green_button" onclick="AddFunctionWatch2()">+</button>
+                            <button id="counter_watch2" >0</button>
+                            <button id="red_button" onclick="DecreaseFunctionWatch2()">-</button>
+                        </div>
+            </div>
+          
+            <div class="slides">
+                <div class="numbertext">3 / 6</div>
+                    <img class="watches_img" src="/images/watches3.jpg">
+                        <div class="watchestext">
+                            <h1>watch 3</h1>
+                            <p>$246.99</p>
+                            <button id="green_button" onclick="AddFunctionWatch3()">+</button>
+                            <button id="counter_watch3" >0</button>
+                            <button id="red_button" onclick="DecreaseFunctionWatch3()">-</button>
+                        </div>
+            </div>
+          
+            <div class="slides">
+                <div class="numbertext">4 / 6</div>
+                    <img class="watches_img" src="/images/watches4.jpg">
+                        <div class="watchestext">
+                            <h1>watch 4</h1>
+                            <p>$274.99</p>
+                            <button id="green_button" onclick="AddFunctionWatch4()">+</button>
+                            <button id="counter_watch4" >0</button>
+                            <button id="red_button" onclick="DecreaseFunctionWatch4()">-</button>
+                        </div>
+            </div>
+          
+            <div class="slides">
+                <div class="numbertext">5 / 6</div>
+                    <img class="watches_img" src="/images/watches5.jpg">
+                        <div class="watchestext">
+                            <h1>watch 5</h1>
+                            <p>$149.99</p>
+                            <button id="green_button" onclick="AddFunctionWatch5()">+</button>
+                            <button id="counter_watch5" >0</button>
+                            <button id="red_button" onclick="DecreaseFunctionWatch5()">-</button>
+                        </div>
+            </div>
+          
+            <div class="slides">
+                <div class="numbertext">6 / 6</div>
+                    <img class="watches_img" src="/images/watches6.jpg">
+                        <div class="watchestext">
+                            <h1>watch 6</h1>
+                            <p>$83.99</p>
+                            <button id="green_button" onclick="AddFunctionWatch6()">+</button>
+                            <button id="counter_watch6" >0</button>
+                            <button id="red_button" onclick="DecreaseFunctionWatch6()">-</button>
+                        </div>
+            </div>
+          
+            <!-- Next and previous button -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+            <!-- Gallery images -->
+            <div class="row">
+                <div class="column">
+                    <img class="demo" src="/images/watches1.jpg" onclick="currentSlide(1)">
+                </div>
+                <div class="column">
+                    <img class="demo" src="/images/watches2.jpg" onclick="currentSlide(2)">
+                </div>
+                <div class="column">
+                    <img class="demo" src="/images/watches3.jpg" onclick="currentSlide(3)">
+                </div>
+                <div class="column">
+                    <img class="demo" src="/images/watches4.jpg" onclick="currentSlide(4)">
+                </div>
+                <div class="column">
+                    <img class="demo" src="/images/watches5.jpg" onclick="currentSlide(5)">
+                </div>
+                <div class="column">
+                    <img class="demo" src="/images/watches6.jpg" onclick="currentSlide(6)">
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <!-- Socials -->
+    <footer>
+        <div id="socials_bar">
+            <p id="socials_share">share</p>
+            <a class="hide_bg" href="https://twitter.com/home?lang=en"><img class="socials_logo" src="/images/twitter.png" alt="twitter_logo"></a>
+            <a class="hide_bg" href="https://en-gb.facebook.com"><img class="socials_logo" src="/images/facebook.png" alt="facebook_logo"></a>
+            <img id="footer_logo" src="/images/logo.png" alt="logo">
+        </div>
+    </footer>
+  
+</body>
+</html>
