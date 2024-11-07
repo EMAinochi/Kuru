@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <title>Kuru</title> <!-- Website name -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Device website size -->
+    <meta charset="UTF-8"> <!-- Character set -->
+    <link rel="stylesheet" href="style.css"> <!-- Link to css -->
+    <script src="script.js" defer></script> <!-- Link to js -->
+    <link rel="icon" href="/images/favicon.ico"> <!-- Favicon -->
+</head>
+
+
+  
+<body> 
+  
+    <!-- Header -->
+    <header>
+        <!-- Left header -->
+        <div id="left_header">
+            <img id="header_logo" src="/images/logo.png" alt="logo">
+            <p id="header_txt">A fan based<br>webshop</p>
+        </div>
+  
+        <!-- Right header -->
+        <div id="right_header">
+            <img id="right_header_img" src="/images/header_bg.jpg" alt="img">
+        </div>
+    </header>
+  
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div id="nav_bg">
+            <ul>
+                <img id="nav_logo" src="/images/logo.png" alt="logo">
+                <a href="index.html">news</a>
+                <span class="nav_slash"></span>
+                <a href="goods.html">goods</a>
+                <span class="nav_slash"></span>
+                <a href="shirts.html">shirts</a>
+                <span class="nav_slash"></span>
+                <a href="phones.html">phones</a>
+                <span class="nav_slash"></span>
+                <a href="watches.html">watches</a>
+                <span class="nav_slash"></span>
+                <a href="on air.html">on air</a>
+                <span class="nav_slash"></span>
+                <a id="a_right" href="contact.html">contact</a>
+                <button id="counter">0</button>
+                <a href="cart.html"><img id="img_cart" src="/images/cart.png" alt="image"></a>
+            </ul>
+        </div>
+    </nav>
+  
+    <!-- Content -->
+    <div id="content_bg">
+
+        <!-- Shirt1 -->
+        <div id="content_shirts1_color"></div>
+        <div id="content_shirts1">
+            <img id="shirt_img" src="/images/shirt1.jpg" alt="product"> 
+            <h1>Black</h1>
+            <p>$14.00</p>
+            <div class="shirts_button">
+                <button id="green_button" onclick="AddFunctionShirt1()">+</button>
+                <button id="counter_shirt1" >0</button>
+                <button id="red_button" onclick="DecreaseFunctionShirt1()">-</button>
+            </div>
+        </div>
+
+        <!-- Shirt2 -->
+        <div id="content_shirts2_color"></div>
+        <div id="content_shirts2">
+            <img id="shirt_img" src="/images/shirt2.jpg" alt="product"> 
+            <h1>White</h1>
+            <p>$16.00</p>
+            <div class="shirts_button">
+                <button id="green_button" onclick="AddFunctionShirt2()">+</button>
+                <button id="counter_shirt2" >0</button>
+                <button id="red_button" onclick="DecreaseFunctionShirt2()">-</button>
+            </div>
+        </div>
+
+        <!-- Shirt3 -->
+        <div id="content_shirts3_color"></div>
+        <div id="content_shirts3">
+            <img id="shirt_img" src="/images/shirt3.jpg" alt="product"> 
+            <h1>T-Shirt</h1>
+            <p>$12.00</p>
+            <div class="shirts_button">
+                <button id="green_button" onclick="AddFunctionShirt3()">+</button>
+                <button id="counter_shirt3" >0</button>
+                <button id="red_button" onclick="DecreaseFunctionShirt3()">-</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Socials -->
+    <footer>
+        <div id="socials_bar">
+            <p id="socials_share">share</p>
+            <a class="hide_bg" href="https://twitter.com/home?lang=en"><img class="socials_logo" src="/images/twitter.png" alt="twitter_logo"></a>
+            <a class="hide_bg" href="https://en-gb.facebook.com"><img class="socials_logo" src="/images/facebook.png" alt="facebook_logo"></a>
+            <img id="footer_logo" src="/images/logo.png" alt="logo">
+        </div>
+    </footer>
+  
+</body>
+</html>
